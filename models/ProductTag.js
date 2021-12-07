@@ -15,7 +15,7 @@ ProductTag.init(
       // instruct that this is the Primary Key
       primaryKey: true,
       // turn on auto increment
-      autoIncrement: true,
+      autoIncrement: true
     },
     //defines product id column
     product_id: {
@@ -24,7 +24,7 @@ ProductTag.init(
       //References the product model's id
       references: {
         model: "product",
-        key: "id",
+        key: "id"
       },
     },
     //defines tag id
@@ -34,7 +34,7 @@ ProductTag.init(
       //References the tag model's id
       references: {
         model: "tag",
-        key: "id",
+        key: "id"
       },
     },
   },
@@ -43,7 +43,7 @@ ProductTag.init(
     timestamps: false,
     freezeTableName: true,
     underscored: true,
-    modelName: "product_tag",
+    modelName: "product_tag"
   }
 );
 

@@ -28,12 +28,12 @@ Product.init(
     //defines price
     price: {
       // Decimal
-      isDecimal: true,
+      type: DataTypes.DECIMAL(10,2),
       // Doesn't allow null values
       allowNull: false,
       // Validates that the value is a decimal
       validate: {
-        equals: "decimal",
+        isDecimal:true
       },
     },
     //defines stock
