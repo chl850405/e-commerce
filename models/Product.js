@@ -53,6 +53,8 @@ Product.init(
     category_id: {
       // use the special Sequelize DataTypes object provide what type of data it is
       type: DataTypes.INTEGER,
+        // allows null values
+        allowNull: true,
       //References the category model's id
       references: {
         model: "category",
