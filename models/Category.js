@@ -20,7 +20,7 @@ Category.init(
     // define a catagory name
     category_name: {
       type: DataTypes.STRING,
-      allowNull: false,
+      allowNull: true,
     },
   },
   {
@@ -28,7 +28,7 @@ Category.init(
     timestamps: false,
     freezeTableName: true,
     underscored: true,
-    modelName: "category",
+    modelName: "Category",
   }
 );
 

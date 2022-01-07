@@ -46,7 +46,7 @@ Product.init(
       defaultValue: 10,
       //value is numeric
       validate: {
-        isNumeric: true,
+        isNumeric: true
       },
     },
     //defines category id
@@ -67,7 +67,7 @@ Product.init(
     timestamps: false,
     freezeTableName: true,
     underscored: true,
-    modelName: "product",
+    modelName: "product"
   }
 );
 
