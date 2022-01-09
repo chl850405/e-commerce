@@ -20,7 +20,7 @@ This application will allow users to view, add, edit, and delete categories, pro
 
 View video to see MySQL walk through via [Screencastify](https://drive.google.com/file/d/1Em_LQH1I-NgwqmKpxgeBkXy71hx4clSp/view)<br>
 View video to walk through of the API routes. [Screencastify](https://drive.google.com/file/d/19HxHUsCz4v2iva7JGcpbhywtCO3b4wU0/view)<br>
-View video to see Insomnia walk through via [Screencastify]()
+View video to see Insomnia walk through via [Screencastify](https://drive.google.com/file/d/1X3CGbwAnfSOz93SGSwwQJkQPpCrbXOEH/view)
 
 ## License 
 This project is license under MIT
