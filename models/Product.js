@@ -28,12 +28,12 @@ Product.init(
     //defines price
     price: {
       // Decimal
-      type: DataTypes.DECIMAL(10,2),
+      type: DataTypes.DECIMAL(10, 2),
       // Doesn't allow null values
       allowNull: false,
       // Validates that the value is a decimal
       validate: {
-        isDecimal:true
+        isDecimal: true,
       },
     },
     //defines stock
@@ -46,15 +46,15 @@ Product.init(
       defaultValue: 10,
       //value is numeric
       validate: {
-        isNumeric: true
+        isNumeric: true,
       },
     },
     //defines category id
     category_id: {
       // use the special Sequelize DataTypes object provide what type of data it is
       type: DataTypes.INTEGER,
-        // allows null values
-        allowNull: true,
+      // allows null values
+      allowNull: true,
       //References the category model's id
       references: {
         model: "category",
@@ -67,7 +67,7 @@ Product.init(
     timestamps: false,
     freezeTableName: true,
     underscored: true,
-    modelName: "product"
+    modelName: "product",
   }
 );
 

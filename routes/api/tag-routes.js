@@ -35,8 +35,7 @@ router.get("/:id", (req, res) => {
     ],
   })
     .then((tag) => res.status(200).json(tag))
-    .catch((err) => 
-      res.status(400).json(err));
+    .catch((err) => res.status(400).json(err));
 });
 
 router.post("/", (req, res) => {
